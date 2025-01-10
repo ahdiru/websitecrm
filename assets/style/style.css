@@ -1,0 +1,52 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+.sidebar {
+    @apply bg-gray-900 text-white h-screen w-64 p-5;
+}
+
+.logo {
+    @apply w-24 mx-auto mb-5;
+}
+
+.add-appointment {
+    @apply bg-blue-500 text-white py-2 px-4 rounded mb-5 w-full;
+}
+
+.nav-menu .nav-item {
+    @apply flex items-center py-2 px-4 text-lg hover:bg-gray-700;
+}
+
+.nav-item .badge {
+    @apply bg-red-500 text-white text-sm ml-auto rounded-full px-2;
+}
+
+.profile-section {
+    @apply mt-10 text-center;
+}
+
+.profile-pic {
+    @apply w-16 h-16 rounded-full mx-auto;
+}
+
+.main-content {
+    @apply flex-1 p-10;
+}
+
+header {
+    @apply flex justify-between items-center;
+}
+
+input[type="search"] {
+    @apply border border-gray-300 py-2 px-4 rounded;
+}
+
+.appointment-card {
+    @apply bg-white shadow-lg rounded-lg p-5 mt-5;
+}
+
+.status.done {
+    @apply bg-green-500 text-white px-3 py-1 rounded-full;
+}
